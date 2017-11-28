@@ -52,7 +52,7 @@ TEST_CASE("3) Testing MyString Compare")
         INFO("3.1 Test Compare ms1 > ms2");
         std::cout<<"3.1 Test Compare ms1 > ms2"<<endl;
         REQUIRE(ms1.compareStr(ms1, ms4) == 1);
-    }/*
+    }
     SECTION("3.2 Test Compare ms1 < ms2")
     {
         INFO("3.2 Test Compare ms1 < ms2");
@@ -70,7 +70,7 @@ TEST_CASE("3) Testing MyString Compare")
         INFO("3.4 Test Compare ms1 == ms2 (equal length, different string");
         cout<<"3.4 Test Compare ms1 == ms2 (equal length, different string"<<endl;
         REQUIRE(ms1.compareStr(ms1, ms3) == -2);
-    }*/
+    }
 }
 /*!
  * @test 4) Testing MyString Revert Method
