@@ -21,6 +21,8 @@ TEST_CASE("1) Testing MyString")
 /*!
  * @test 2) Testing MyString Constructor Empty
  */
+
+
 TEST_CASE("2) Testing MyString Empty")
 {
     INFO("2) Testing MyString Empty");
@@ -37,6 +39,7 @@ TEST_CASE("2) Testing MyString Empty")
 /*!
  * @test 3) Testing MyString Compare Method
  */
+
 TEST_CASE("3) Testing MyString Compare")
 {
     INFO("3) Testing MyString Compare");
@@ -49,7 +52,7 @@ TEST_CASE("3) Testing MyString Compare")
         INFO("3.1 Test Compare ms1 > ms2");
         std::cout<<"3.1 Test Compare ms1 > ms2"<<endl;
         REQUIRE(ms1.compareStr(ms1, ms4) == 1);
-    }
+    }/*
     SECTION("3.2 Test Compare ms1 < ms2")
     {
         INFO("3.2 Test Compare ms1 < ms2");
@@ -67,11 +70,12 @@ TEST_CASE("3) Testing MyString Compare")
         INFO("3.4 Test Compare ms1 == ms2 (equal length, different string");
         cout<<"3.4 Test Compare ms1 == ms2 (equal length, different string"<<endl;
         REQUIRE(ms1.compareStr(ms1, ms3) == -2);
-    }
+    }*/
 }
 /*!
  * @test 4) Testing MyString Revert Method
  */
+/*
 TEST_CASE("4) Testing MyString Revert")
 {
     INFO("4) Testing MyString Revert");
@@ -90,7 +94,7 @@ TEST_CASE("4) Testing MyString Revert")
 
 /*!
  * @test 5) Testing MyString << opeartor
- */
+ *//*
 TEST_CASE("5) Testing MyString << operator")
 {
     INFO("5) Testing MyString << operator");
@@ -101,4 +105,4 @@ TEST_CASE("5) Testing MyString << operator")
         std::cout<<"5.1 Test <<operator"<<endl;
         std::cout<<ms<<endl;
     }
-}
+}*/

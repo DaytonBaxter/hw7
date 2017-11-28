@@ -8,11 +8,11 @@ using namespace std;
 // Main Program Program
 int main(void)
 {
-    MyString big("big");
-
+    MyString big();
+    /*
     string s1 = big.getInternalCString();
     cout<<s1<<endl;
-/*
+
     MyString saw("saw");
     MyString bigger("bigger");
     MyString little("little");
